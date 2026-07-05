@@ -1,0 +1,33 @@
+# dependencies
+node_modules
+
+# build output
+dist
+dist-ssr
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / os
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# env
+.env
+.env.local
+*.local
+
+# ts build info
+*.tsbuildinfo
+
+# vercel
+.vercel
+
+# large source media — the full-res master exports. Keep local only; GitHub
+# rejects files > 100 MB. NOTE: the optimized public/videos/reel.mp4 (~19 MB)
+# IS committed and deployed — that's the web version the site actually uses.
+reel-source/
+/videos/
