@@ -77,9 +77,17 @@ export function Footer() {
           <p className="font-mono text-[10px] uppercase tracking-[0.15em] text-paper-soft">
             © {year} {site.name}. All rights reserved.
           </p>
-          <p className="font-mono text-[10px] uppercase tracking-[0.15em] text-paper-soft">
-            Set in Bricolage, Fraunces &amp; Space Mono
-          </p>
+          <div className="flex items-center gap-5">
+            <a
+              href="/privacy.html"
+              className="font-mono text-[10px] uppercase tracking-[0.15em] text-paper-soft transition-colors hover:text-amber-glow"
+            >
+              Privacy Policy
+            </a>
+            <span className="font-mono text-[10px] uppercase tracking-[0.15em] text-paper-soft">
+              Set in Bricolage, Fraunces &amp; Space Mono
+            </span>
+          </div>
           <a
             href="#top"
             className="group inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.15em] text-paper-soft transition-colors hover:text-amber-glow"
